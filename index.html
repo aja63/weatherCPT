@@ -7,7 +7,7 @@
                 var resultElement = $('#resultDiv');
                 resultElement.html('');
 
-                var requestData = $('#txtCity').val() + ',' + $('#txtCountry').val();
+                var requestData = $('#txtCity').val();
                 $.ajax({
                     url: 'api.openweathermap.org/data/2.5/weather',
                     method: 'get',
